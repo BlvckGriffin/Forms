@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>My Project</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <h1>LEGPAPER</h1>
+    
+
+<form>
+    <label for="first-name">Enter your First-Name: 
+        <input type="text" id="first-name" name="first-name" required placeholder="First-Name">
+    </label>
+    
+    <br>
+    <br>
+
+    <label for="last-name">Enter your Last-Name: 
+        <input type="text" id="last-name" name="last-name" required placeholder="Last-Name">
+    </label>
+
+
+    <br>
+    <br>
+
+
+    <label for="Age">Select Your Age:
+        <input type="number" min="12" max="80" name="number" id="Age" required>
+    </label>
+    <br>
+    <br>
+
+    <label for="email">Enter Your Email:
+        <input type="email" name="email"  id="email" placeholder="anything@example.com" required>
+    </label>
+    <br>
+    <br>
+
+
+    <label for="password">Create a New Password:
+        <input type="password" name="password" pattern="[a-z0-5]{8,}" required id="password">
+    </label>
+
+
+    <br>
+    <br>
+
+    <label for="Male">Gender &nbsp; &nbsp;
+        <input type="radio" name="gender" value="male" checked id="Male">Male 
+&nbsp;&nbsp;
+    </label>
+    <label for="Female">
+        <input type="radio" name="gender" value="female" id="Female">Female
+    </label>
+    <br>
+    <br>
+
+    <label for="bio">Provide a bio below</label>
+    <br>
+    <br>
+        
+    <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Type here">
+    </textarea>
+    <br>
+    <br>
+    <label for="terms-and-conditions">
+        <input type="checkbox" required id="terms-and-conditions">I accept the terms and conditions
+    </label>
+   <br>
+   <br>
+   <input type="submit" value="Submit">
+</form>
+    
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<table>
+    <th>Form Registration</th>
+    <tr>
+        <td><label for="first-name">Enter your First-Name: </label></td>
+        <td><input type="text" id="first-name" name="first-name" required placeholder="First-Name"></td>
+    </tr>
+    <tr>
+<td><label for="last-name">Enter your Last-Name:</label></td>
+<td>  <input type="text" id="last-name" name="last-name" required placeholder="Last-Name">
+</td>
+    </tr>
+    <tr>
+        <td><label for="Age">Select Your Age:</label></td>
+        <td><input type="number" min="12" max="80" name="number" id="Age" required>
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="email">Enter Your Email:</label></td>
+        <td><input type="email" name="email"  id="email" placeholder="anything@example.com" required>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="password">Create a New Password:</label></td>
+          <td><input type="password" name="password" pattern="[a-z0-5]{8,}" required id="password">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="Male">Gender &nbsp; &nbsp;</label></td>
+                <label><td><input type="radio" name="gender" value="male" checked id="Male">Male 
+        &nbsp;&nbsp;</label>
+            </label>
+            <label for="Female">
+                <input type="radio" name="gender" value="female" id="Female">Female
+            </label></td>
+    </tr>
+    <tr>
+        <td><label for="bio">Provide a bio below</label></td>
+        
+        <td colspan="1"><textarea id="bio" name="bio" rows="2" cols="30" placeholder="Type here">
+        </textarea></td>
+    </tr>
+    <tr>
+        <td> <label for="terms-and-conditions">
+            <input type="checkbox" required id="terms-and-conditions"></label></td>
+
+            <td>
+            I accept the terms and conditions
+            </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+</table>
